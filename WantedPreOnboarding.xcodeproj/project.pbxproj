@@ -56,6 +56,7 @@
 		5A99A2BF29A88E3D006FE9B2 /* WantedPreOnboarding */ = {
 			isa = PBXGroup;
 			children = (
+				5A99A2CE29A88E40006FE9B2 /* Info.plist */,
 				5A99A2D829A89555006FE9B2 /* App */,
 				5ABB7FA529B45A0C008D5C15 /* Feature */,
 				5ABB7FAA29B45AB7008D5C15 /* Shared */,
@@ -119,7 +120,6 @@
 		5ABB7FA929B45A89008D5C15 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				5A99A2CE29A88E40006FE9B2 /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";

@@ -33,6 +33,7 @@ final class ImageView: UIStackView {
         alignment = .center
         spacing = 10
         
+        setUp()
     }
     
     required init(coder: NSCoder) {
@@ -43,7 +44,7 @@ final class ImageView: UIStackView {
         
         NSLayoutConstraint.activate([
             imageView.widthAnchor.constraint(equalToConstant: 90),
-            imageView.heightAnchor.constraint(equalToConstant: 50)
+            imageView.heightAnchor.constraint(equalToConstant: 70)
         ])
         
         [imageView, progressView, loadButton].forEach { subView in
