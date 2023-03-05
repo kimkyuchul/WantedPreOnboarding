@@ -17,7 +17,7 @@ public class ImageService {
     
         URLSession.shared.dataTask(with: url) { (data, urlrespinse, error) in
             guard let data = data, error == nil else {
-                failure("Image cant download from G+ or fb server")
+                failure("Image error")
                 return
             }
             

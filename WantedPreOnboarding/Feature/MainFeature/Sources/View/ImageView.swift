@@ -26,7 +26,6 @@ final class ImageView: UIStackView {
         return progressView
     }()
     
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         axis = .horizontal
