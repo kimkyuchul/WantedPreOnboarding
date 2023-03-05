@@ -54,14 +54,78 @@
 		5A99A2BF29A88E3D006FE9B2 /* WantedPreOnboarding */ = {
 			isa = PBXGroup;
 			children = (
-				5A99A2C029A88E3D006FE9B2 /* AppDelegate.swift */,
-				5A99A2C229A88E3D006FE9B2 /* SceneDelegate.swift */,
-				5A99A2D629A892E5006FE9B2 /* MainViewController.swift */,
-				5A99A2C929A88E40006FE9B2 /* Assets.xcassets */,
-				5A99A2CB29A88E40006FE9B2 /* LaunchScreen.storyboard */,
-				5A99A2CE29A88E40006FE9B2 /* Info.plist */,
+				5A99A2D829A89555006FE9B2 /* App */,
+				5ABB7FA529B45A0C008D5C15 /* Feature */,
+				5ABB7FAA29B45AB7008D5C15 /* Shared */,
+				5ABB7FA829B45A83008D5C15 /* Resources */,
+				5ABB7FA929B45A89008D5C15 /* Support */,
 			);
 			path = WantedPreOnboarding;
+			sourceTree = "<group>";
+		};
+		5A99A2D829A89555006FE9B2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5A99A2C029A88E3D006FE9B2 /* AppDelegate.swift */,
+				5A99A2C229A88E3D006FE9B2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5A99A2D929A8BACE006FE9B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5ABB7FA529B45A0C008D5C15 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				5ABB7FA629B45A40008D5C15 /* MainFeature */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		5ABB7FA629B45A40008D5C15 /* MainFeature */ = {
+			isa = PBXGroup;
+			children = (
+				5ABB7FA729B45A58008D5C15 /* Sources */,
+			);
+			path = MainFeature;
+			sourceTree = "<group>";
+		};
+		5ABB7FA729B45A58008D5C15 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5A99A2D629A892E5006FE9B2 /* MainViewController.swift */,
+				5A99A2D929A8BACE006FE9B2 /* View */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5ABB7FA829B45A83008D5C15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A99A2C929A88E40006FE9B2 /* Assets.xcassets */,
+				5A99A2CB29A88E40006FE9B2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5ABB7FA929B45A89008D5C15 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5A99A2CE29A88E40006FE9B2 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		5ABB7FAA29B45AB7008D5C15 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
