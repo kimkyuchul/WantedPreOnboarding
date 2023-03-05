@@ -55,7 +55,12 @@ final class MainViewController: UIViewController {
         
         imageView.forEach { $0.heightAnchor.constraint(equalToConstant: 70).isActive = true }
         
+        loadAllImageButton.addTarget(self, action: #selector(allloadImage), for: .touchUpInside)
         
+    }
+    
+    @objc func allloadImage() {
+        imageView.forEach { $0.loadImage() }
     }
 
 }
